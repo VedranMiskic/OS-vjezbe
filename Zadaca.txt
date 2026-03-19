@@ -7,10 +7,28 @@ Zadatak 1
 	cd ..
 
 Zadatak 2
-
-
-
+	
+	mkdir vjezba2 && cd vjezba2
+	touch file.txt
+	cp file.txt file_copy.txt
+	rm file.txt && rm file_copy.txt
+	cd ..
+	rmdir vjezba2
+	
 Zadatak 3
 
+	mkdir vjezba3 && mkdir vjezba3/backup
+	touch vjezba3/notes.txt && touch vjezba3/todo.txt && touch vjezba3/script.sh
+	cp vjezba3/notes.txt vjezba3/backup && cp vjezba3/todo.txt vjezba3/backup && cp vjezba3/script.sh vjezba3/backup
+	rm vjezba3/script.sh && ls vjezba3/
+	mkdir vjezba3/backup/$USER
+	mv vjezba3/backup/notes.txt vjezba3/backup/$USER && mv vjezba3/backup/script.sh vjezba3/backup/$USER && mv vjezba3/backup/todo.txt vjezba3/backup/$USER
 
 Zadatak 4
+
+	mkdir vjezba4 && mkdir vjezba4/subfolder
+	touch vjezba4/$HOSTNAME
+	mv vjezba4/$HOSTNAME vjezba4/$USER
+	mv vjezba4/$USER vjezba4/subfolder
+	rm $(pwd)/vjezba4/subfolder/$USER
+	
