@@ -1,0 +1,38 @@
+Zadatak 1
+
+
+
+Zadatak 2
+
+	mkdir -p vjezba_2/data && mkdir -p vjezba_2/backup
+	touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+	echo 'console.log("Hello, World!")' > vjezba_2/backup/script.js
+	echo "body { background-color: #f0f0f0; }" > vjezba_2/backup/style.css
+	echo "VJEZBE=OS" > vjezba_2/backup/.env
+	cat vjezba_2/backup/script.js
+	cat vjezba_2/backup/style.css
+	cat vjezba_2/backup/.env
+
+Zadatak 3
+
+	cp -a vjezba_2/data/. vjezba_2/backup/
+	cd vjezba_2/dana
+	ls -las ../backup
+
+Zadatak 4
+
+	rm -iv style.css script.js
+		( odgovoriti sa y ako želimo obrisati datoteku )
+		rm: remove regular empty file 'style.css'? y
+		removed 'style.css'
+		rm: remove regular empty file 'script.js'? y
+		removed 'script.js'
+	cp -a ../backup/* ../data
+	ls -1taA
+	( možemo ispisati sadržaj datoteke npr. tree && ls -x )
+
+Zadatak 5
+
+	ls -las
+	ls -lhsA
+	tree -a
