@@ -1,0 +1,575 @@
+    1  sudo <command>
+    2  wsl
+    3  echo $0
+    4  pwd
+    5  ls
+    6  cd <putanja>
+    7  cd Desktop
+    8  cd ..
+    9  clear
+   10  echo Hello
+   11  echo "ej" e
+   12  echo $0
+   13  echo $hostname
+   14  echo $HOSTNAME
+   15  echo trenutni $USER
+   16  mkdir novvo
+   17  mkdir Fakultet/npv
+   18  mkdir Fakultet\npv
+   19  rmdir novvo
+   20  rmdir Fakultetnpv
+   21  touch vjez.txt
+   22  cp vjez.txt Desktop/Fakultet
+   23  cp vjez.txt Desktop/Fakultet && ls
+   24  mv vjez.txt copivjez.txt
+   25  rm copivjez.txt
+   26  rm vjez.txt
+   27  cd..
+   28  cd ..
+   29  cd Desktop
+   30  cd Desktop/Fakultet
+   31  pwr
+   32  pwd
+   33  cd /Desktop
+   34  cd desktop
+   35  cd Pozadina
+   36  cd Fakultet
+   37  cd c
+   38  cd Users/Vedran
+   39  cd Radna Povrsina
+   40  cd Desktop
+   41  cd Fakultet
+   42  cd Svi
+   43  cd Svi e-kolegiji 1.godina 2025. i 2026
+   44  cd ..
+   45  cd OS-vjezbe
+   46  clear
+   47  pwd
+   48  ls
+   49  ls OS-vjezbe
+   50  ls
+   51  ls Desktop
+   52  ls OS-vjezbe
+   53  mkdir vjezba1
+   54  ls
+   55  rmdir vjezba1
+   56  ls
+   57  clear
+   58  pwd
+   59  ls
+   60  mkdir vjezba1
+   61  cd vjezba1
+   62  touch README.md
+   63  dc ..
+   64  cd ..
+   65  rmdir vjezba1
+   66  cd vjezba1
+   67  rmdir README.md
+   68  rm README.md
+   69  cd ..
+   70  rmdir vjezba1
+   71  clear
+   72  cd Desktop/OS-vjezbe
+   73  pwd
+   74  ls
+   75  mkdir vjezba1 && cd vjezba1
+   76  touch README.md
+   77  cd ..
+   78  cd Desktop/OS-vjezbe
+   79  git clone https://github.com/VedranMiskic/OS-vjezbe.git
+   80  s
+   81  wsl
+   82  clear
+   83  cd ..
+   84  cd Desktop/OS-vjezbe
+   85  clone https://github.com/VedranMiskic/OS-vjezbe.git
+   86  rclone https://github.com/VedranMiskic/OS-vjezbe.git
+   87  ls
+   88  git add .
+   89  git commit -m "Moja prva zadaca"
+   90  clone https://github.com/VedranMiskic/OS-vjezbe.git
+   91  cd Desktop/OS-vjezbe
+   92  clone https://github.com/VedranMiskic/OS-vjezbe.git
+   93  git clone https://github.com/VedranMiskic/OS-vjezbe.git
+   94  cd Desktop/OS-vjezbe
+   95  git clone https://github.com/VedranMiskic/OS-vjezbe.git
+   96  cd .. && cd Os-zadace
+   97  git clone https://github.com/VedranMiskic/OS-vjezbe.git
+   98  git gh repo clone VedranMiskic/OS-vjezbe
+   99  gh repo clone VedranMiskic/OS-vjezbe
+  100  install gh
+  101  sudo snap install gh
+  102  cd Desktop/OS-vjezbe
+  103  mkdir vjezbe3/backup $USER
+  104  mkdir vjezba3/backup $USER
+  105  mkdir vjezbe3/backup/$USER
+  106  mkdir vjezbe3/backup/USER
+  107  mkdir vjezba3/backup/USER
+  108  cp ./backup ./USER
+  109  cp /backup/. /USER
+  110  cp /backup . /USER
+  111  cp /backup . backup/USER
+  112  cp /backup . /vjezba3/backup/USER
+  113  cp /backup . vjezba3/backup/USER
+  114  cp /backup /vjezba3/backup/USER
+  115  cp vjezba3/backup vjezba3/backup/USER
+  116  rm vjezba3/script.sh && ls vjezba3/
+  117  mv vjezba3/backup/ vjezba3/backup/USER
+  118  mv vjezba3/backup vjezba3/backup/USER
+  119  mv vjezba3/backup/notes.txt vjezba3/backup/USER && mv vjezba3/backup/script.sh vjezba3/backup/USER && mv vjezba3/backup/todo.txt vjezba3/backup/USER
+  120  clear
+  121  mkdir vjezba4 && mkdir vjezba4/subfolder
+  122  mkdir vjezba4/$HOSTNAME
+  123  mv /vjezba4/$HOSTANAME /vjezba4/$USER
+  124  mv vjezba4/$HOSTANAME vjezba4/$USER
+  125  cd vjezba4
+  126  mv $HOSTNAME $USER
+  127  touch $HOSTNAME
+  128  mv $HOSTNAME $USER
+  129  rm $HOSTNAME
+  130  rmdir $HOSTNAME
+  131  touch $HOSTNAME
+  132  mv $HOSTNAME $USER
+  133  rm $HOSTNAME
+  134  touch vjezba4/$HOSTNAME
+  135  cd ..
+  136  touch vjezba4/$HOSTNAME
+  137  mv vjezba4/$HOSTNAME vjezba4/$USER
+  138  mv vjezba4/$USER vjezba4/subfolder
+  139  rm /mnt/c/Users/Vedran/Desktop/OS-vjezbe/vjezbe4/$USER
+  140  rm mnt/c/Users/Vedran/Desktop/OS-vjezbe/vjezbe4/$USER
+  141  rm c/Users/Vedran/Desktop/OS-vjezbe/vjezbe4/$USER
+  142  pwd
+  143  rm pwd/$USER
+  144  rm $(pwd)/vjezba4/subfolder/$USER
+  145  cd .. 
+  146  cd OS/OS-vjezbe
+  147  touch OS_1
+  148  rm OS_1
+  149  mkdir OS_1
+  150  cd Desktop/OS-vjezbe
+  151  mkdir vjezba2 && touch file.txt
+  152  cd /vjezba2
+  153  cd vjezba2
+  154  cp file.txt file_copy.txt
+  155  cd ..
+  156  cp file.txt vjezba2
+  157  cd vjezba2
+  158  rmdir file.txt
+  159  rmdir file
+  160  rm file.txt
+  161  cd ..
+  162  cp file.txt vjezba2 file_copy.txt
+  163  cp file.txt vjezba2 
+  164  cd vjezba2
+  165  cp file.txt file_copy.txt
+  166  rm file.txt && rm file_copy.txt
+  167  cd ..
+  168  cp file.txt vjezba2 && cp file.txt file_copy.txt
+  169  rm file_copy.txt
+  170  rm file.txt
+  171  cd vjezba2
+  172  rm file.txt
+  173  cd ..
+  174  clear
+  175  mkdir vjezba2 && touch file.txt
+  176  rmdir vjezba2
+  177  clear
+  178  mkdir vjezba2 && touch file.txt
+  179  cp file.txt vjezba2 file_copy.txt
+  180  cp file.txt file_copy.txt vjezba2
+  181  cd vjezba2
+  182  rm file.txt
+  183  cd ..
+  184  rm file.txt rmdir vjezba2
+  185  rmdir vjezba2
+  186  clear
+  187  mkdir vjezba2
+  188  rmdir vjezba2
+  189  clear
+  190  mkdir vjezba2 && touch file.txt
+  191  rm file.txt && rmdir vjezba2
+  192  mkdir vjezba2 && cd vjezba2
+  193  touch file.txt
+  194  cp file.txt file_copy.txt
+  195  rm file.txt
+  196  rm file_copy.txt
+  197  cd ..
+  198  rmdir vjezba2
+  199  clear
+  200  mkdir vjezba3 && mkdir vjezba3/backup
+  201  touch vjezba3/notes.txt && touch vjezba3/todo.txt && touch vjezba3/script.sh
+  202  cp vjezba3/. backup
+  203  cp vjezba3/notes.txt backup
+  204  cp vjezba3/notes.txt vjezba3/backup
+  205  cp vjezba3/todo.txt vjezba3/backup&& cp vjezba3/script.sh svjezba3/backup
+  206  cp vjezba3/todo.txt vjezba3/backup&& cp vjezba3/script.sh vjezba3/backup
+  207  mkdir markoferinac
+  208  touch markojetu.txt
+  209  mkdir markoferinac/markokopija
+  210  rmdir markoferinac/markokopija
+  211  mv markojetu.txt markoferinac
+  212  rm markoferinac/markojetu.txt
+  213  rm markoferinac
+  214  rmdir markoferinac
+  215  touch Desktop/OS/OS-vjezbe/OS_2/zadaca2.txt
+  216  ls
+  217  ls -a
+  218  cd -
+  219  ls ..
+  220  ls ../..
+  221  ls -A
+  222  open .
+  223  explorer.exe .
+  224  ls -l
+  225  -ls
+  226  ls
+  227  ls -R
+  228  clear
+  229  tree --version
+  230  install tree
+  231  sudo apr install tree
+  232  sudo apt install tree
+  233  tree --version
+  234  explorer.exe
+  235  cd Desktop
+  236  clear
+  237  cd OS
+  238  clear
+  239  cd desktop
+  240  cd os
+  241  tree
+  242  tree -a
+  243  clear
+  244  tree ~
+  245  tree
+  246  explorer.exe
+  247  PES5.exe
+  248  cd ..
+  249  cd igre
+  250  PES5.exe
+  251  cd ..
+  252  cd os
+  253  ree -L 2 ~
+  254  tree -L 2 ~
+  255  cd ..
+  256  tree -L 2 ~
+  257  cd os
+  258  clear
+  259  ls -l -h
+  260  ls -lh
+  261  ls --color
+  262  cd os-vjezbe
+  263  ls --color
+  264  cd ..
+  265  man ls
+  266  mkdir -p skola
+  267  explorer.exe
+  268  rmdir skola
+  269  mkdir -p skola/skola2
+  270  rmdir -p skola/skola2
+  271  MKDIR SKOLA
+  272  mkdir skola
+  273  rmdir skola
+  274  touch skola.txt
+  275  rm -i skola.txt
+  276  t.txt
+  277  touch t.txt
+  278  echo "tekssst" > t.txt
+  279  git --version
+  280  git -v
+  281  cd ~
+  282  mkdir lokalniOsVjezbe
+  283  cd lokalniOsVjezbe
+  284  git init
+  285  ls
+  286  ls -a
+  287  touch t.txt
+  288  echo "tekssst" > t.txt
+  289  open t.txt
+  290  sudo apt install xdg-utils
+  291  xdg-open t.txt
+  292  apt-get update
+  293  --fix-missing
+  294  cat t.txt
+  295  git add t.txt
+  296  git status
+  297  git log
+  298  cd ..
+  299  cd c
+  300  ls
+  301  cd vedran
+  302  ls
+  303  ls
+  304  cd lokalniosvjezbe
+  305  cd LokalniOsVjezbe
+  306  cd lokalniOsVjezbe
+  307  ls
+  308  cd Desktop
+  309  cd Desktop/OS/OS-vjezbe/OS_2
+  310  echo 'console.log("Hello, World!")' > vjezba_2/backup/script.js "body { backg
+  311  round-color: #f0f0f0; }" > vjezba_2/backup/style.css "VJEZBE=OS" > vjezba_2/backup/.env
+  312  echo 'console.log("Hello, World!")' > vjezba_2/backup/script.js && echo "body { backg
+  313  round-color: #f0f0f0; }" > vjezba_2/backup/style.css && echo "VJEZBE=OS" > vjezba_2/backup/.env
+  314  echo 'console.log("Hello, World!")' > vjezba_2/backup/script.js
+  315  cat vjezba_2/backup/script.js
+  316  echo "body { background-color: #f0f0f0; }" > vjezba_2/backup/style.css
+  317  echo "VJEZBE=OS" > vjezba_2/backup/.env
+  318  cat vjezba_2/backup/script.js
+  319  cat vjezba_2/backup/style.css
+  320  cat vjezba_2/backup/.env
+  321  cp vjezba_2/data/. vjezba_2/backup/
+  322  cp -ra vjezba_2/data/. vjezba_2/backup/
+  323  rm vjezba_2/backup/.
+  324  rmdir vjezba_2/backup/.
+  325  cp -a vjezba_2/data/. vjezba_2/backup/
+  326  cd vjezba_2/data
+  327  cd ..
+  328  cd..
+  329  cd ..
+  330  cd vjezba_2/data
+  331  ls -las ../backup
+  332  ls -las 
+  333  ls -las data
+  334  clear
+  335  rm -iv style.css script.js
+  336  cd ../backup
+  337  cd ../data
+  338  cp -a* ../backup data
+  339  cp -a ../backup/* data
+  340  cp -a ../backup/* vjezba_2/data
+  341  cp -a ../backup/* ../data
+  342  ls -1taA 
+  343  ls tree
+  344  ls -tree
+  345  tree
+  346  ls -x
+  347  tree && ls -x
+  348  clear
+  349  cd ..
+  350  ls
+  351  cd OS-vjezbe
+  352  clear
+  353  ls -las
+  354  ls -lhsA
+  355  tree -a
+  356  ls
+  357  cd desktop
+  358  ls
+  359  cd OS
+  360  ls
+  361  cd OS-vjezbe
+  362  ls
+  363  cd OS_2
+  364  ls
+  365  clear
+  366  mkdir -p vjezba2/data && mkdir -p vjezba_2/backup
+  367  rmdir -p vjezba2/data && rmdir -p vjezba_2/backup
+  368  mkdir -p vjezba_2/data && mkdir -p vjezba_2/backup
+  369  0f0; }" > vjezba_2/backup/style.css "VJEZBE=OS" > vjezba_2/backup/.env
+  370  wsl
+  371  ls
+  372  cd desktop
+  373  ls
+  374  cd OS/OS-vjezbe/OS_2
+  375  mkdir -p vjezba_2/data && mkdir -p vjezba_2/backup
+  376  touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+  377  echo 'console.log("Hello, World!")' > vjezba_2/backup/script.js
+  378  echo "body { background-color: #f0f0f0; }" > vjezba_2/backup/style.css
+  379  echo "VJEZBE=OS" > vjezba_2/backup/.env
+  380  cat vjezba_2/backup/script.js
+  381  cat vjezba_2/backup/style.css
+  382  cat vjezba_2/backup/.env
+  383  git add .
+  384  git status
+  385  git commit -m "Riješen zadatak 2"
+  386  git log
+  387  ls
+  388  cd desktop
+  389  ls
+  390  cd OS
+  391  ls
+  392  cd OS-vjezbe
+  393  ls
+  394  cd OS_2
+  395  clear
+  396  git init
+  397  mkdir -p vjezba_2/data && mkdir -p vjezba_2/backup
+  398  	touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+  399  	echo 'console.log("Hello, World!")' > vjezba_2/backup/script.js
+  400  	echo "body { background-color: #f0f0f0; }" > vjezba_2/backup/style.css
+  401  	echo "VJEZBE=OS" > vjezba_2/backup/.env
+  402  	cat vjezba_2/backup/script.js
+  403  	cat vjezba_2/backup/style.css
+  404  	cat vjezba_2/backup/.env
+  405  git add .
+  406  git status
+  407  git commit -m "Riješen 2. zadatak"
+  408  git log
+  409  ls
+  410  cd Desktop
+  411  ls
+  412  cd OS-vjezbe
+  413  ls
+  414  cd ..
+  415  cd OS
+  416  ls
+  417  cd OS-vjezbe
+  418  ls
+  419  clear
+  420  git init
+  421  ls
+  422  ls -a
+  423  mkdir -p vjezba_2/data && mkdir -p vjezba_2/backup
+  424  touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+  425  	echo 'console.log("Hello, World!")' > vjezba_2/backup/script.js
+  426  	echo "body { background-color: #f0f0f0; }" > vjezba_2/backup/style.css
+  427  	echo "VJEZBE=OS" > vjezba_2/backup/.env
+  428  	cat vjezba_2/backup/script.js
+  429  	cat vjezba_2/backup/style.css
+  430  	cat vjezba_2/backup/.env
+  431  git add .
+  432  git status
+  433  git commit -m "Riješen 2. zadatak"
+  434  git config --global user.name "Vedarn"
+  435  git config --global user.name "Vedaran"
+  436  git commit -m "Riješen 2. zadatak"
+  437  git log
+  438  pwd
+  439  ls
+  440  cd Desktop
+  441  ls
+  442  cd OS
+  443  ls
+  444  cd OS-vjezbe
+  445  ls
+  446  cd ..
+  447  ls
+  448  OS-clone
+  449  cd OS-clone
+  450  ls
+  451  git clone https://github.com/VedranMiskic/OS-vjezbe.git
+  452  ping github.com
+  453  curl -I https://github.com
+  454  git config --global --get http.proxy
+  455  git config --global --get https.proxy
+  456  env | grep -i proxy
+  457  curl -I https://github.com
+  458  nc -vz github.com 443
+  459  curl -I https://github.com
+  460  git clone https://github.com/VedranMiskic/OS-vjezbe.git
+  461  git config --global --unset http.proxy 2>/dev/null
+  462  git config --global --unset https.proxy 2>/dev/null
+  463  unset HTTP_PROXY HTTPS_PROXY ALL_PROXY http_proxy https_proxy all_proxy
+  464  curl -I https://github.com
+  465  git ls-remote https://github.com/git/git
+  466  clear
+  467  curl -I https://github.com
+  468  ls
+  469  cd desktop && ls desktop
+  470  cd desktop
+  471  ls
+  472  cd OS
+  473  cd ..
+  474  cd OS
+  475  cd OS-vjezbe
+  476  ls
+  477  cd ..
+  478  ls
+  479  cd OS-clone
+  480  git clone https://github.com/VedranMiskic/OS-vjezbe.git
+  481  cd ..
+  482  ls
+  483  cd OS-vjezbe
+  484  ls
+  485  cd OS_1
+  486  ls
+  487  git checkout 
+  488  ls -a
+  489  git checkout <hash_*commita*>
+  490  git checkout <#1>
+  491  git log
+  492  git checkout -
+  493  git switch
+  494  git switch -
+  495  git checkout -1
+  496  clear
+  497  cd..
+  498  cd ..
+  499  ls
+  500  cd OS-vjezbe
+  501  ls
+  502  clear
+  503  mkdir OS_2
+  504  cd OS_2
+  505  clear
+  506  mkdir -p vjezba_2/data && mkdir -p vjezba_2/backup
+  507  	touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+  508  	echo 'console.log("Hello, World!")' > vjezba_2/backup/script.js
+  509  	echo "body { background-color: #f0f0f0; }" > vjezba_2/backup/style.css
+  510  	echo "VJEZBE=OS" > vjezba_2/backup/.env
+  511  	cat vjezba_2/backup/script.js
+  512  	cat vjezba_2/backup/style.css
+  513  	cat vjezba_2/backup/.env
+  514  git add .
+  515* git st
+  516  git commit -m "Rijesšen zadatak 2"
+  517  	cp -a vjezba_2/data/. vjezba_2/backup/
+  518  	cd vjezba_2/dana
+  519  	cd vjezba_2/data
+  520  	ls -las ../backup
+  521  git add .
+  522  git status
+  523  git commit -m "Rijesšen zadatak 3"
+  524  cd ..
+  525  ls
+  526  cd ..
+  527  rmdir OS_2
+  528  ls
+  529  cd OS-vjezbe
+  530  ls
+  531  rmdir OS_2
+  532  ls
+  533  mkdir OS_2
+  534  cd OS_2
+  535  mkdir vjezba_2
+  536  rmdir vjezba_2
+  537  mkdir -p vjezba_2/data && mkdir -p vjezba_2/backup
+  538  cd vjezba_2
+  539  touch data/script.js data/style.css data/.env
+  540  echo 'console.log("Hello, World!")' > backup/script.js
+  541  echo "body { background-color: #f0f0f0; }" > backup/style.css
+  542  echo "VJEZBE=OS" > backup/.env
+  543  cat backup/script.js
+  544  cat backup/style.css
+  545  cat backup/.env
+  546  git commit -m "Riješen zadatak 2"
+  547  git add .
+  548  git status
+  549  git commit -m "Riješen zadatak 2"
+  550  git push
+  551  cp -a data/. backup/
+  552  cd data
+  553  ls -las ../backup
+  554  git add .
+  555  git status
+  556  git commit -m "Riješen zadatak 3"
+  557  git add .
+  558  git log
+  559  git status
+  560  rm -iv style.css script.js
+  561  cp -a ../backup/* ../data
+  562  ls -1taA
+  563  tree && ls -x
+  564  git add .
+  565  git status
+  566  git commit -m "Riješen zadatak 4"
+  567  ls -las
+  568  ls -lhsA
+  569  tree -a
+  570  git add .
+  571  git status
+  572  git commit -m "Riješen zadatak 5"
+  573  cd ..
+  574  touch vjezba_2_history.txt
+  575  history > vjezba_2_history.txt
