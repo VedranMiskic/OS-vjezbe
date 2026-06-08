@@ -1,0 +1,12 @@
+PID identifikacijski broj procesa
+USER korisnik koji je pokrenuo proces
+PRI prioritet procesa
+NI nice vrijednost
+VIRT ukupna virtualna memorija
+RES stvarna RAM memorija
+SHR dijeljena memorija
+S stanje procesa
+CPU% opterećenje CUP-a
+MEM% zauzeće memorije
+TIME+ ukupno vrijeme
+Command naredba koja je pokrenula proces
