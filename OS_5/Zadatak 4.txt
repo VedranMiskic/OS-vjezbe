@@ -1,0 +1,34 @@
+rwxr-xr-x
+
+	755
+	Vlasnik može čitati, pisati i izvršavati, grupe i ostali korisnici mogu samo čitati i izvršavati.
+
+rw-r--r--
+
+	644
+	Vlasnik može čitati i pisati, grupe i ostali korisnici mogu samo čitati.
+
+rwx------
+
+	700
+	Vlasnik može čitati, pisati i izvršavati, dok ostali korisnici i grupa ne mogu ništa.
+
+rw-rw-r--
+
+	664
+	Vlasnik i grupe mogu čitati i pisati, dok ostali korisnici mogu samo čitati.
+
+rwxrwxrwx
+
+	777
+	Svi imaju sve dozvole.
+
+r--r--r--
+
+	444
+	Svi mogu samo čitati.
+
+rw-------
+
+	600
+	Vlasnik može čitati i pisati, dok ostali korisnici i grupe ne mogu ništa.
